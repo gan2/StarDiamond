@@ -23,6 +23,9 @@
 また、王駒を定義せず子駒15個のみでプレイするルールも存在する。
 
 
+== 盤の図
+https://docs.google.com/a/klis.tsukuba.ac.jp/spreadsheet/ccc?key=0AtcGySx_a_5gdFIwdXV4Mkhnem1NVlE4NWJGS2xGbHc&hl=en_US#gid=0
+
 == ソースコードのエンコーディング
 文字コードは UTF-8 で改行コードは Unix 形式の \n に統一して下さい．
 以下，このエンコーディングのことを utf-8-unix と呼びます．
