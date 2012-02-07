@@ -5,6 +5,8 @@ require 'pp'
 require 'kconv'
 
 class Board
+  attr_reader :width, :height
+  
   # size = トライアングルの辺の長さ
   def initialize(size)
     @nodes = []
