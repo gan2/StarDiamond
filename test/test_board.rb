@@ -1,10 +1,11 @@
 #!c:/Ruby/bin/ruby -Ku
 $KCODE = 'u'
 
-require 'test/unit'
-require 'board'
+require 'test_helper'
 
 class TestBoard < Test::Unit::TestCase
+  include StarDiamond
+  
   def setup
     @board = Board.new(3)
   end
