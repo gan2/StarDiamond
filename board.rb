@@ -23,6 +23,13 @@ class Board
   def display
     @nodes
   end
+
+  # 位置を渡すとその左の位置を返すメソッド
+  # 引数：point 要素数2の配列[yoko, tate]
+  # 返り値：
+  def get_left(point) # point 
+    return [point[0]+2, point[1]]
+  end
   
   class Node
     def initialize(start, goal, toreru_color, piece)
