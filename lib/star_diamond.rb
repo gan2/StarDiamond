@@ -12,7 +12,7 @@ module StarDiamond
   ROOT = File.join( File.expand_path(File.dirname(__FILE__)), 'star_diamond' )
 end
 
-# == Cylog モジュール内のファイルの require
+# require するファイルの一覧
 #   require する順番には依存関係がある．
 #   例えば，親クラスを require しないで子クラスを require するとエラーになる．
 require_files = [
